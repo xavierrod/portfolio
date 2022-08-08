@@ -1002,7 +1002,37 @@ h3.my-profession {
         gap: 3rem;
     }
 }
+@media (max-width: 520px) {
 
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio-popup-inner{
+        width: 420px;
+        padding: 2.8 1.5rem 2.5rem;
+    }
+    .portfolio-popup-content{
+        grid-template-columns: repeat(1, 1fr) ;
+        row-gap: 1.6rem;
+    }
+    .details-title{
+        font-size: 25px;
+    }
+    .portfolio-popup-close{
+        top: .5rem;
+    }
+    .work-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+}
 
 
 
